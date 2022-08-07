@@ -1,0 +1,305 @@
+body {
+  width: auto;
+  height: 98vh;
+  margin: 0;
+  background: #121212;
+}
+
+div.all-body {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+div.center {
+  width: 76%;
+  padding: 15px;
+}
+
+div#encabezados {
+  background-color: black;
+  width: 12%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 20px;
+}
+
+div.footer {
+  width: 12%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+div.one-head {
+  border-bottom: 1px solid lightgrey;
+}
+
+div.first-header {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+div.second-header {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+div.third-header {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+div.fourth-header {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+div.fifth-header {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+h6 {
+  color: white;
+  font-size: 11px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+div.two-head > p {
+  color: white;
+  font-size: 11px;
+}
+
+div.center {
+  background-color: #121212;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+div.icons-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.icons {
+  display: flex;
+  gap: 10px;
+}
+
+div.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.first-input {
+  background-color: #121212;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.left-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+div.left-right > p {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+div.music-one {
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.second-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.third-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.fourth-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.fifth-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+div.centertwo-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see > p {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+p.bold {
+  font-weight: bold;
+}
+
+p#ded {
+  color: white;
+  font-size: 11px;
+  font-family: monospace;
+}
+
+.six-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.seven-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.eight-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.nine-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+.ten-song > p {
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+}
+
+div.music-two {
+  display: flex;
+  gap: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.footer {
+  background-color: black;
+  padding: 5px;
+}
+
+.tag-friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h5 {
+  color: white;
+  font-size: 11px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+p.white {
+  color: white;
+  font-size: 11px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+div.sav-one {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+div.sav-two {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+div.sav-third {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.last-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#last-input {
+  background-color: #121212;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 10px;
+}

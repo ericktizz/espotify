@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>espotify</title>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+      type="text/css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
+  </head>
+  <body>
+    <div class="all-body">
+      <div id="encabezados">
+        <div class="one-head">
+          <div class="first-header">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-house-door"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"
+              />
+            </svg>
+            <h6>Home</h6>
+          </div>
+          <div class="second-header">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              />
+            </svg>
+            <h6>Search</h6>
+          </div>
+          <div class="third-header">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-music-note-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+              />
+              <path fill-rule="evenodd" d="M12 3v10h-1V3h1z" />
+              <path
+                d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+            <h6>Your Library</h6>
+          </div>
+          <div class="fourth-header">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-plus-square"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"
+              />
+              <path
+                d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"
+              />
+            </svg>
+            <h6>Create Playlist</h6>
+          </div>
+          <div class="fifth-header">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+              />
+            </svg>
+            <h6>Liked Songs</h6>
+          </div>
+        </div>
+        <div class="two-head">
+          <p>My Playlist #1</p>
+          <p>My Playlist #2</p>
+          <p>My Playlist #3</p>
+        </div>
+      </div>
+      <div class="center">
+        <div class="icons-inputs">
+          <div class="icons">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              color="white"
+              fill="currentColor"
+              class="bi bi-arrow-left-square"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm11.5 5.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              color="white"
+              fill="currentColor"
+              class="bi bi-arrow-right-square"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              />
+            </svg>
+          </div>
+          <div class="inputs">
+            <input
+              class="first-input"
+              type="submit"
+              value="Upgrade"
+              name=""
+              id=""
+            />
+            <input
+              class="first-input"
+              type="email"
+              value="email"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div class="left-right">
+          <h3>Recently Played</h3>
+          <p>SEE ALL</p>
+        </div>
+        <div class="music-one">
+          <div class="first-song">
+            <img src="ali.jpg" alt="electronic" />
+            <p class="bold">Electronic Max</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="second-song">
+            <img src="ali.jpg" alt="juan" />
+            <p class="bold">Ju Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="third-song">
+            <img src="ali.jpg" alt="kamm" />
+            <p class="bold">Kam Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="fourth-song">
+            <img src="ali.jpg" alt="meg" />
+            <p class="bold">Meg Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="fifth-song">
+            <img src="ali.jpg" alt="mosta" />
+            <p class="bold">Most Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+        </div>
+        <div class="centertwo-head">
+          <div class="electronic-reco">
+            <h3>Electronic/Dance</h3>
+            <p id="ded">Recommended for you</p>
+          </div>
+          <div class="see">
+            <p>SEE ALL</p>
+          </div>
+        </div>
+        <div class="music-two">
+          <div class="six-song">
+            <img src="tora.jpg" alt="tob" />
+            <p class="bold">Tob Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="seven-song">
+            <img src="tora.jpg" alt="tora" />
+            <p class="bold">Tora Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="eight-song">
+            <img src="tora.jpg" alt="vin" />
+            <p class="bold">Vin Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="nine-song">
+            <img src="tora.jpg" alt="yur" />
+            <p class="bold">Yur Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+          <div class="ten-song">
+            <img src="tora.jpg" alt="zal" />
+            <p class="bold">Zaldo Music</p>
+            <p>El Mejor Dance.</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="tag-friend">
+          <h5>Friend Activity</h5>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            color="white"
+            fill="currentColor"
+            class="bi bi-person-plus"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"
+            />
+          </svg>
+        </div>
+        <div class="first-middle">
+          <p class="white">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+          <div class="sav-one">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-patch-plus-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM8.5 6v1.5H10a.5.5 0 0 1 0 1H8.5V10a.5.5 0 0 1-1 0V8.5H6a.5.5 0 0 1 0-1h1.5V6a.5.5 0 0 1 1 0z"
+              />
+            </svg>
+            <p class="white">Lorem ipsum</p>
+          </div>
+          <div class="sav-two">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-patch-plus-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM8.5 6v1.5H10a.5.5 0 0 1 0 1H8.5V10a.5.5 0 0 1-1 0V8.5H6a.5.5 0 0 1 0-1h1.5V6a.5.5 0 0 1 1 0z"
+              />
+            </svg>
+            <p class="white">Lorem ipsum</p>
+          </div>
+          <div class="sav-third">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              color="white"
+              fill="currentColor"
+              class="bi bi-patch-plus-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM8.5 6v1.5H10a.5.5 0 0 1 0 1H8.5V10a.5.5 0 0 1-1 0V8.5H6a.5.5 0 0 1 0-1h1.5V6a.5.5 0 0 1 1 0z"
+              />
+            </svg>
+            <p class="white">Lorem ipsum</p>
+          </div>
+        </div>
+        <div class="second-middle">
+          <p class="white">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+        </div>
+        <div class="last-footer">
+          <input id="last-input" type="submit" value="settings" name="" id="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
